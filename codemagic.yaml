@@ -10,9 +10,9 @@ workflows:
         distribution_type: dev
         bundle_identifier: neural-medic.Inkontinenz-Tagebuch
       vars:
-      BUNDLE_ID: "neural-medic.Inkontinenz-Tagebuch"
-      XCODE_WORKSPACE: "Inkontinenz Tagebuch.xcodeproj" # <-- Name of your Xcode workspace
-      XCODE_SCHEME: "Inkontinenz Tagebuch" # <-- Name of your Xcode scheme
+        BUNDLE_ID: "neural-medic.Inkontinenz-Tagebuch"
+        XCODE_WORKSPACE: "Inkontinenz Tagebuch.xcodeproj" # <-- Name of your Xcode workspace
+        XCODE_SCHEME: "Inkontinenz Tagebuch" # <-- Name of your Xcode scheme
       xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
       cocoapods: default
     scripts:
