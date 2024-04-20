@@ -6,7 +6,7 @@ workflows:
 ios-native:
   environment:
     vars:
-      BUNDLE_ID: "io.codemagic.sample.iosnative"
+      BUNDLE_ID: "neural-medic.Inkontinenz-Tagebuch"
       XCODE_WORKSPACE: "Inkontinenz Tagebuch.xcodeproj" # <-- Name of your Xcode workspace
       XCODE_SCHEME: "Inkontinenz Tagebuch" # <-- Name of your Xcode scheme
 scripts:
