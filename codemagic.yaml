@@ -7,7 +7,7 @@ workflows:
       app_store_connect: codemagic
     environment:
       ios_signing:
-        distribution_type: dev
+        distribution_type: deveopment
         bundle_identifier: neural-medic.Inkontinenz-Tagebuch
       vars:
         BUNDLE_ID: "neural-medic.Inkontinenz-Tagebuch"
