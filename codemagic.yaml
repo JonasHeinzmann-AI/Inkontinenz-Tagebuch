@@ -3,12 +3,7 @@ workflows:
     name: iOS Native
     max_build_duration: 120
     instance_type: mac_mini_m1
-    integrations:
-      app_store_connect: codemagic
     environment:
-      ios_signing:
-        distribution_type: development
-        bundle_identifier: neural-medic.Inkontinenz-Tagebuch
       vars:
         BUNDLE_ID: "neural-medic.Inkontinenz-Tagebuch"
         XCODE_WORKSPACE: "Inkontinenz Tagebuch.xcodeproj" # <-- Name of your Xcode workspace
